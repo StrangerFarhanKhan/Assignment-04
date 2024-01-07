@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- Go To Parent Page  -->
+  
+      <button onclick="history.back()">Go Back</button>
+  
+
+    <!-- STUDENT REGISTRARION FORM  -->
+    <form action="#">
+        <img src="./saylani logo.jpeg" alt="SMIT LOGO">
+<br><br>
+    <h1>student registrarion form</h1>
+    <br>
+    
+    <div Id="abc">
+    <label for="#">FIRST NAME</label>
+    <input class="fn" type="text" name="First Name" id="first-name" placeholder="Enter the First Name" maxlength="30"> (max 30 characters a-z and A-Z)
+    
+    <br><br>
+
+    <label for="#">LAST NAME</label>
+    <input class="ln" type="text" name="Last Name" id="last-name" placeholder="Enter the Last Name" maxlength="30"> (max 30 characters a-z and A-Z)
+    
+    <br><br>
+
+    <label for="#">DATE OF BIRTH</label>
+    <input class="DOB" type="date" name="DOB" id="DOB">
+    
+    <br><br>
+
+    <label for="#">EMAIL ID</label>
+    <input class="email" type="text" name="Email" id="Emai" placeholder="Enter the Email Address" required>
+    
+    <br><br>
+
+    <label for="#">MOBILE NUMBER</label>
+    <input class="mob" type="text" name="Mobile-number" id="Mobile-number" placeholder="Enter the Mobile Number" maxlength="10"> (10 Digit Number)
+    
+    <br><br>
+
+    <label for="#">GENDER</label>
+
+    <input class="m" type="radio" name="Gender" id="Male" value="M">
+    <label for="Male">Male</label>
+
+    <input class="f" type="radio" name="Gender" id="Female"  value="F">
+    <label for="Female">Female</label>
+    
+    <br><br>
+
+    <label for="#">ADDRESS</label>
+    <textarea name="" id="" cols="40" rows="5"></textarea>
+
+    <br><br>
+
+    <label for="#">CITY</label>
+    <input class="city" type="text" name="citY" id="city" placeholder="Enter the City Name" maxlength="30"> (max 30 characters a-z and A-Z)
+
+    <br><br>
+
+    <label for="#">PIN CODE</label>
+    <input class="pin" type="text" name="pin-code" id="pin-code" placeholder="Enter the Pin Code" maxlength="6"> (6 Digits Number)
+
+    <br><br>
+
+    <label for="#">STATE</label>
+    <input class="state" type="text" name="state" id="state" placeholder="Enter the State" maxlength="30"> (max 30 characters a-z and A-Z)
+
+    <br><br>
+
+    <label for="#">COUNTRY</label>
+    <input class="country" type="text" name="country-name" id="country-name" placeholder="Enter the Country Name">
+
+    <br></br>
+
+    <label for="#">HOBBIES</label>
+
+    <div id="hobbies">
+    <label  for="Drawing">Drawing</label>
+    <input  type="checkbox" name="Drawing" id="Hobbies" value="D">
+
+    <label for="Singing">Singing</label>
+    <input type="checkbox" name="Singing" id="Hobbies"  value="S">
+    
+    <label for="Dancing">Dancing</label>
+    <input type="checkbox" name="Dancing" id="Hobbies"  value="D">
+    
+    <label for="Sketching">Sketching</label>
+    <input type="checkbox" name="Sketching" id="Hobbies"  value="S">
+    
+    <br>
+   
+    <label for="Other">Other</label>
+    <input type="checkbox" name="Other" id="Hobbies"  value="O">
+    <input type="text">
+</div>
+
+    <br><br>
+
+    <!-- Using Table  -->
+  <label for="#">QUALIFICATION</label>
+    <table>
+    <tr>
+    <th>S.I. Examination</th>
+    <th>Board</th>
+    <th>Percentage</th>
+    <th>Year of Passing</th>
+</tr>
+<tr>
+    <td>1 Class X</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td>2 Class XII</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td>3 Graduation</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td>4 Masters</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+</tr>
+<tr>
+    <td></td>
+    <td style="text-align: center;">(10 char max)</td>
+    <td style="text-align: center;">upto 2 decimal</td>
+    <td></td>
+</tr>
+  </table>
+
+  <!-- Drowpdown List -->
+  <label for="#">COURSES <br> APPLIED FOR</label>
+  <Select class="course" name="Course">
+    <option class="course" value="Select any course">Select any course</option>
+    <option class="course" value="Masters(M.B.A)">Masters(M.B.A)</option>
+    <option class="course" value="B.sc">B.sc</option>
+    <option class="course" value="ADC(B.com)">ADC(B.com)</option>
+    <option class="course" value="ADA(B.A)">ADA(B.A)</option>
+  </Select>
+  <br><br>
+
+  <label for="#">Upload your pic <br> (only .png,.jpg,.jpeg formats allow)</label>
+  <input type="file" name="User-image">
+  <br><br>
+
+  <!-- buttons -->
+  <div id="btn">
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</div>
+<br><br><br><br><br>
+</form>
+
+
+</body>
+</html>

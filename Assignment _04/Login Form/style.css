@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: #dae473;
+}
+img{
+    width: 220px;
+    height: 180px;
+    margin-top: 3%;
+    margin-left: 42%;
+}
+
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#abc{
+    padding-left: 37%;
+}
+
+.mail{
+    margin-left: 10%;
+}
+
+.pw{
+    margin-left: 7.5%;
+}
+
+
+#btn{
+    margin-left: 47%;
+}
+
+button{
+    margin-left: 3%;
+    margin-top: 3%;
+}
